@@ -3,7 +3,7 @@ import m3u8 from "./routes/m3u8-proxy";
 import TsProxy from "./routes/ts-proxy";
 
 const app = express();
-const PORT = 3535;
+const PORT = 3000;
 
 // Middleware to parse JSON
 app.use(express.json());
